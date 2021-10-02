@@ -1,0 +1,23 @@
+{
+  "name": "interview-javascript-template",
+  "version": "1.0.0",
+  "description": "Template for javascript interviews",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sourceallies/interview-javascript-template.git"
+  },
+  "author": "SAI",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sourceallies/interview-javascript-template/issues"
+  },
+  "homepage": "https://github.com/sourceallies/interview-javascript-template#readme",
+  "devDependencies": {
+    "jest": "^27.2.4"
+  }
+}
