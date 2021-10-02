@@ -1,9 +1,10 @@
-const readline = require('readline').createInterface({
-    input: process.stdin,
-    output: process.stdout
-});
 
-readline.question(`What's your name?`, name => {
-    console.log(`Hello ${name}!`);
-    readline.close();
-});
+console.log(sayHello('world'));
+
+function sayHello(name) {
+    return `Hi ${name}!`
+}
+
+module.exports = {
+    sayHello
+}
