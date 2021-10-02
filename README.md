@@ -14,6 +14,8 @@ Node.js project for verifying interview setup
 3. Click the "Open a Remote Window" icon on the bottom-left corner of VS Code
 4. Select "Reopen in Container"
 
+Check out this [Link](https://github.com/sourceallies/interviews/blob/main/docs/interview-environment.md) for more information on using a dev container. 
+
 A development container image will be built according to the configuration in the .devcontainer folder. Nothing is installed on your host OS. Everything can be cleaned up by deleting the development container and corresponding image.
 
 ## Run Project
@@ -22,7 +24,7 @@ A development container image will be built according to the configuration in th
 npm start
 ```
 
-### Run Tests
+## Test Project
 
 ```
 npm run test
