@@ -12,6 +12,6 @@
 		"source=interview-node_modules,target=${containerWorkspaceFolder}/node_modules,type=volume"
 	],
 	"forwardPorts": [3000],
-	"postCreateCommand": "sudo chown node node_modules; npm install;",
+	"postCreateCommand": "sudo chown node node_modules; npm ci;",
 	"remoteUser": "node"
 }
