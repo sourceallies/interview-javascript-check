@@ -1,4 +1,4 @@
-FROM node:16-bullseye
+FROM node:17-bullseye
 
 ARG USERNAME=node
 ARG USER_UID=1000
